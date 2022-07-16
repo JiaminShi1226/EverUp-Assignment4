@@ -1,0 +1,71 @@
+.largebox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18%;
+    margin-bottom: 20px;
+}
+.one{
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 200px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.two{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+h4{
+    text-align: center;
+}
+
+.btn1{
+    padding: 10px;
+    background-color:lightblue;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.modal-window{
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgba(29, 168, 227, 0.3);
+    margin: 0;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal-window:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.msgblock{
+    background-color: antiquewhite;
+    width:30%;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 35%;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    color: black;
+}
+
+.close-sign{
+    position: absolute;
+    top:1%;
+    left: 95%;
+}
+
+/* ----------------------------------------- */
+
